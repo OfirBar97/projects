@@ -50,7 +50,7 @@ Here are some of the projects I've worked on:
 ### 3. **Designed RAM Module for FPGA**
    - **Description**: RAM memory unit and reset feature module and test benches, designed with Verilog
    - **Features**: The operating system (OS) itself uses RAM to manage system processes, handle user inputs, and run background services.
-   - **Tech Stack**: Verilog, Xilinx Vivado.
+   - **Tech Stack**: Verilog, Xilinx Vivado, FPGA.
    - [Link to Project](#)
 
 ---
