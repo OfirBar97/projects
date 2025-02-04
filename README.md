@@ -41,7 +41,7 @@ Here are some of the projects I've worked on:
    - **Tech Stack**: MATLAB.
    - [Link to Project](#)
 
-### 2. **Digital Communication - QPSK Modulation **
+### 2. **Digital Communication - QPSK Modulation**
    - **Description**: a Quadrature Phase Shift Keying (QPSK) Modulation, Transmitting Data and recieving Data with and without noise simulations.
    - **Features**: Wireless Communication – Found in LTE, 5G, Wi-Fi (IEEE 802.11), and Bluetooth standards for high-speed data transmission.
    - **Tech Stack**: MATLAB.
