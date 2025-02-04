@@ -45,7 +45,7 @@ Here are some of the projects I've worked on:
    - **Description**: a Quadrature Phase Shift Keying (QPSK) Modulation, Transmitting Data and recieving Data with and without noise simulations.
    - **Features**: Wireless Communication – Found in LTE, 5G, Wi-Fi (IEEE 802.11), and Bluetooth standards for high-speed data transmission.
    - **Tech Stack**: MATLAB.
-   - [Link to Project](#)
+   - [Link to Project](https://github.com/OfirBar97/projects/blob/main/QPSK.pdf)
 
 ### 3. **Designed RAM Module for FPGA**
    - **Description**: RAM memory unit and reset feature module and test benches, designed with Verilog
