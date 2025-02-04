@@ -92,8 +92,3 @@ I'm always open to collaborations, discussions, and feedback. Feel free to reach
 
 ---
 
-## 📈 Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=dark)
-
----
