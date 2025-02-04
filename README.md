@@ -58,6 +58,8 @@ Here are some of the projects I've worked on:
 ## 📚 Learning Resources
 
 Here are some resources that have helped me in my journey:
+- **B.Sc of applied science - Electrical and Electronics Engineer**
+    <p style="opacity: 0.6;">SCE - College of Engineering, Be'er Sheva.</p>
 
 - **Online Courses**:
   - [Design an STM32-based prototype from scratch in KiCad V6](#)
