@@ -60,8 +60,10 @@ Here are some of the projects I've worked on:
 Here are some resources that have helped me in my journey:
 - **Bachelor of Applied Science B.Sc - Electrical and Electronics Engineer**
     <p style="opacity: 0.5;">SCE - College of Engineering, Be'er Sheva.</p>
+- **Linux Cyber Security and Cisco networks managment**
+    <p style="opacity: 0.5;">HackerU Academy, Ramat Gan</p>
 
-- **Online Courses**:
+- **Online Courses & Cerifications**:
   - [Design an STM32-based prototype from scratch in KiCad V6]
   - [Getting started with Deep Learning - NVIDIA]
   - [Verilog for FPGA Development - Prof. Eduardo Corpeño]
