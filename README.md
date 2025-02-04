@@ -7,8 +7,25 @@ This repository serves as a portfolio of my projects, experiments, and learning 
 
 ## 🚀 About Me
 
-- **Background**: Electrical Engineer with knowledge in [your field, e.g., power systems, circuit design, etc.].
+- **Background**: Electrical Engineer with knowledge in {Circuit design, Low level Programming, MATLAB, Lab Equipment, Computer Architecture, Deep Learning, Machine Learning, Image processing Libraries, etc.}.
 - **Focus**: Focused on embedded systems and signal and image processing, combining hardware and software to build efficient, real-world solutions.
+- **Goal**: To create innovative, reliable, and scalable embedded systems that solve real-world problems.
+
+- 
+| **Category**        | **Tools/Technologies**                                                          |
+|---------------------|---------------------------------------------------------------------------------|
+| **Hardware Design** | KiCad, Altium Designer, Multisim, OrCAD                                         |
+| **Microcontrollers**| Arduino, STM32, Rasberry Pi                                                     |
+| **Programming**     | Embedded C/C++, Python, MATLAB, RTOS,                                           |
+| **Communication Protocols**     | I2C, SPI, UART,                                          |
+| **Simulation**      | LTspice, MATLAB/Simulink                                                        |
+| **Lab Tools**       | Logic Analyzer, Oscilloscope, Signal Generator, Spectrum analyzer, Multimeters  |
+| **Advanced in**     | Deep Learning, Machine Learning, Signal & Image processing                      |
+| **Libraries**       | Pandas, NumPy, Matploitlib, TensorFlow, Keras, SickitLearn, OpenCV              |
+| **Version Control** | Git, GitHub, GitLab                                                             |
+
+
+
 - **Skills**: 
   - **Hardware**: PCB design, schematic capture, microcontroller programming (ARM, AVR, ESP32, etc.), sensor integration.
   - **Software**: Embedded C/C++, Python, RTOS, device drivers, communication protocols (I2C, SPI, UART, CAN).
