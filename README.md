@@ -19,7 +19,7 @@ Here are the tools and technologies I frequently use:
   
 | **Category**        | **Tools/Technologies**                                                          |
 |---------------------|---------------------------------------------------------------------------------|
-| **Hardware Design** | KiCad, Altium Designer, Multisim, OrCAD                                         |
+| **Hardware Design** | KiCad, Multisim, OrCAD                                         |
 | **Microcontrollers**| Arduino, STM32, Rasberry Pi, FPGA                                                     |
 | **Programming**     | Embedded C/C++, Python, MATLAB, Verilog, VHDL                                            |
 | **Communication Protocols**     | I2C, SPI, UART                                          |
