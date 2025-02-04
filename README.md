@@ -27,7 +27,7 @@ Here are the tools and technologies I frequently use:
 | **Lab Tools**       | Logic Analyzer, Oscilloscope, Signal Generator, Spectrum analyzer, Multimeters  |
 | **Advanced in**     | Deep Learning, Machine Learning, Signal & Image processing                      |
 | **Libraries**       | Pandas, NumPy, Matploitlib, TensorFlow, Keras, SickitLearn, OpenCV              |
-| **Version Control** | Git, GitHub, GitLab                                                             |
+| **Version Control** | Git, GitHub                                                             |
 
 ---
 
