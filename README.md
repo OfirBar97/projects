@@ -66,12 +66,12 @@ Here are some resources that have helped me in my journey:
     <p style="opacity: 0.5;">HackerU Academy, Ramat Gan</p>
 
 - **Online Courses & Cerifications**:
-  - [Design an STM32-based prototype from scratch in KiCad V6]
-  - [Getting started with Deep Learning - NVIDIA]
-  - [Verilog for FPGA Development - Prof. Eduardo Corpeño]
-  - [Fundamentals of Accelerated Computing with CUDA Python - NVIDIA]
-  - [Machine learning in Python with scikit-learn - France Université Numérique]
-  - [100 Days of Code: The Complete Python Pro Bootcamp - Dr. Angela Yu]
+  - 'Design an STM32-based prototype from scratch in KiCad V6' - Phil's Lab
+  - 'Getting started with Deep Learning' - NVIDIA
+  - 'Verilog for FPGA Development' - Prof. Eduardo Corpeño
+  - 'Fundamentals of Accelerated Computing with CUDA Python' - NVIDIA
+  - 'Machine learning in Python with scikit-learn' - France Université Numérique
+  - '100 Days of Code: The Complete Python Pro Bootcamp' - Dr. Angela Yu
  
 - **Books**:
   - "Digital Logic Design Using Verilog" by Vaibbhav Taraate
