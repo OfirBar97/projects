@@ -59,11 +59,11 @@ Here are some of the projects I've worked on:
 
 Here are some resources that have helped me in my journey:
 - **Bachelor of Applied Science B.Sc - Electrical and Electronics Engineer**
-        >SCE - College of Engineering, Be'er Sheva</p>
+        > SCE - College of Engineering, Be'er Sheva
 - **SoC 101 Computer Architecture - Prof. Adi Teman**
-        >Bar Ilan University, Ramat gan</p>
+        > Bar Ilan University, Ramat gan
 - **Linux Cyber Security and Cisco networks managment**
-        >HackerU Academy, Ramat Gan</p>
+        > HackerU Academy, Ramat Gan
 
 - **Online Courses & Cerifications**:
   - 'Design an STM32-based prototype from scratch in KiCad V6' - Phil's Lab
