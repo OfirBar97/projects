@@ -35,7 +35,7 @@ Here are the tools and technologies I frequently use:
 
 Here are some of the projects I've worked on:
 
-### 1. **Algorithm for Noise Filtering and Information Extraction of Fingerprints**
+### 1. **Algorithm for Noise Filtering and Information Extraction from Fingerprints**
    - **Description**: An algorithm I developed to extract fingerprint minutiae points for classifying human morphological attributes.
    - **Features**: Fingerprint scanner analysis and decoding, sensor data logging, and security appliance integration.
    - **Tech Stack**: MATLAB.
