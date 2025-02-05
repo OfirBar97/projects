@@ -51,7 +51,7 @@ Here are some of the projects I've worked on:
    - **Description**: RAM memory unit and reset feature module and test benches, designed with Verilog
    - **Features**: The operating system (OS) itself uses RAM to manage system processes, handle user inputs, and run background services.
    - **Tech Stack**: Verilog, Xilinx Vivado, FPGA.
-   - [Link to Project](#)
+   - [Link to Project](https://github.com/OfirBar97/projects/blob/main/SRAM_DUT.sv)
 
 ---
 
