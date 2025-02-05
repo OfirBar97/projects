@@ -78,8 +78,8 @@ Here are some resources that have helped me in my journey:
   - "Making Embedded Systems" by Elecia White
   - "The Art of Electronics" by Horowitz and Hill  
 - **Communities**:
-  - [Hardreset Podcast](#)
-  - [r/embedded on Reddit](#)
+  - [Hardreset Podcast](https://open.spotify.com/show/2jVk9zuhcDS8KAavPNyTDu)
+  - [r/embedded on Reddit](https://www.reddit.com/r/embedded/)
 
 ---
 
@@ -87,8 +87,8 @@ Here are some resources that have helped me in my journey:
 
 I'm always open to collaborations, discussions, and feedback. Feel free to reach out to me:
 
-- **Email**: Ofirbar97@gmail.com
-- **LinkedIn**: https://www.linkedin.com/in/ofir-bar-97see/
+- **Email**: [Ofirbar97@gmail.com](Ofirbar97@gmail.com)
+- **LinkedIn**: [LinkedIn](https://www.linkedin.com/in/ofir-bar-97see/)
 
 ---
 
