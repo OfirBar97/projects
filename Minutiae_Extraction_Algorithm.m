@@ -453,7 +453,7 @@ imshow(thinned_Img);
 title('Minutiae');
 hold on;
 % Dummy markers for legend
-plot(NaN, NaN, 'sr', 'MarkerSize', 10, 'MarkerFaceColor', 'g'); % Red square for ridge endings
+plot(NaN, NaN, 'sr', 'MarkerSize', 10, 'MarkerFaceColor', 'g'); % green square for ridge endings
 plot(NaN, NaN, 'sb', 'MarkerSize', 10, 'MarkerFaceColor', 'b'); % Blue square for bifurcations
 legend({'Ridges End', 'Bifurcation'}, 'Location', 'northeast', 'FontSize', 10);
 hold off;
