@@ -5,6 +5,8 @@
 % For any questions, inquiries, or permissions, please contact me at: [ofirbar97@gmail.com].
 
 % Unauthorized use, reproduction, or distribution of this work is strictly prohibited without prior written consent.
+
+
 %% Loading Image
 clc;
 clear;
@@ -107,7 +109,6 @@ subplot(3, 2, 5);
 imshow(after_binary);
 
 title('Binary Image');
-
 
 
 %% prunnig edges process
@@ -230,9 +231,7 @@ for i= 1:2
     % Remove 2x2 black blocks by setting them to 0 in the binary image
     binaryImage(twoByTwoWhitePixels) = 0;
     
-
 end  
-
 
 binaryImage = ~binaryImage;
 % Display results
@@ -241,14 +240,8 @@ subplot(1, 2,2);
 imshow(binaryImage);
 title('Removed Single Black Pixels and 2x2 Black Blocks');
 
-
-
-
 %% Thinning Process
 
-%thin_image=bwmorph(resultImage,'clean',inf);
-%thin_image=bwmorph(thin_image,'spur',inf);
-%figure;imshow(thin_image);title('spur Image');
 
 %
 figure;
@@ -256,7 +249,6 @@ subplot(1, 2, 1);
 thin_image=bwmorph(~binaryImage,'clean',inf);
 thin_image=~bwmorph(thin_image,'thin',inf);
 thin_image=~bwmorph(thin_image,'spur',inf);
-%thin_image=bwareaopen(~thin_image,3);
 
 thin_image=~thin_image;
 imshow(thin_image);
@@ -297,10 +289,10 @@ for i= 1:4
 end  
 
 
-binaryImage = ~binaryImage;
+thinned_image = ~binaryImage;
 % Display results
 figure
-imshow(binaryImage);
+imshow(thinned_image);
 title('Thinned Image v2');
 
 
@@ -316,10 +308,10 @@ title('Thinned Image v2');
 % calculation -> C+D/(A+B) *100 = percentage of occurences matching
 % Initialize lists for ridge endings (A) and bifurcations (B)
 
-%% creating new image 'result' that contain all the information pre-filterd
+%% creating new image 'result' that contains ridges end and bifurcation, pre-filtered.
 
 % Get image size
-[rows, cols] = size(thin_image);
+[rows, cols] = size(thinned_image);
 
 % Initialize result matrix with zeros
 result = zeros(rows, cols);
@@ -327,9 +319,9 @@ result = zeros(rows, cols);
 % Loop through the image, avoiding the borders
 for i = 10:rows-10
     for j = 10:cols-10
-        if thin_image(i, j) == 0  % Check only ridge points
+        if thinned_image(i, j) == 0  % Check only ridge points
             % Extract 3x3 neighborhood
-            neighborhood = thin_image(i-1:i+1, j-1:j+1);
+            neighborhood = thinned_image(i-1:i+1, j-1:j+1);
             
             % Count black pixels (zeros)
             black_pixel_count = sum(neighborhood(:));
@@ -378,19 +370,32 @@ for i = 2:rows-1
 end
 
 number_of_points = sum(newImage,"all");
+% Extract points from newImage (assuming it contains binary minutiae points)
+[y, x] = find(newImage); % Get coordinates of detected points
 
-figure % Third subplot
+figure; % Create a new figure
+
+% First subplot: Original Gray Image
+subplot(1,2,1);
 imshow(grayImage); % Display the original gray image
 title('Original Gray Image');
-legend Points of interest;
 hold on; % Keep the image while plotting additional elements
 
-% Example: Assuming result contains binary points of interest
-[y, x] = find(newImage); % Find coordinates of detected points
+% Plot detected points on the gray image
+plot(x, y, 'go', 'MarkerSize', 8, 'LineWidth', 1); % Green circles
+legend('Points of Interest'); % Correct legend syntax
 
-% Plot circles at the detected points
-plot(x, y,'go', 'MarkerSize', 8, 'LineWidth', 1); % 'go' means green circles
-legend Minutiae;
-hold off; % Release hold
+% Second subplot: Thinned Binary Image
+subplot(1,2,2);
+imshow(thinned_image); % Display the binary image
+title('Thinned Image');
+hold on; % Keep the image for overlaying points
+
+% Plot the same detected points on the thinned binary image
+plot(x, y, 'bo', 'MarkerSize', 8, 'LineWidth', 1); % Green circles
+legend('Minutiae'); % Correct legend syntax
+
+hold off; % Release hold for this subplot
 
 number_of_points;
+
