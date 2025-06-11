@@ -39,10 +39,8 @@ Here are some of the projects I've worked on:
    - **Description**: An algorithm I developed to extract fingerprint minutiae points for classifying human morphological attributes.
    - **Features**: Fingerprint scanner analysis and decoding, sensor data logging, and security appliance integration.
    - **Tech Stack**: MATLAB.
-   - [Link to Project](https://github.com/OfirBar97/projects/blob/main/Minutiae_Extraction_Algorithm.m)
-   - [Link to Fingerprint Ridges and Bifurcations Picture](https://github.com/OfirBar97/projects/blob/main/Fingerprint_ridges_and_bifurcations.jpg)
-   - [Link to Fingerprint Feature Extraction Picture](https://github.com/OfirBar97/projects/blob/main/finger_print_extraction.jpg)
-
+   - [Link to Project](https://github.com/OfirBar97/projects/blob/main/Fingerprint%20Recognition%20System/Project%20Poster.pdf)
+     
 ### 2. **Digital Communication - QPSK Modulation**
    - **Description**: a Quadrature Phase Shift Keying (QPSK) Modulation, Transmitting Data and recieving Data with and without noise simulations.
    - **Features**: Wireless Communication – Found in LTE, 5G, Wi-Fi (IEEE 802.11), and Bluetooth standards for high-speed data transmission.
