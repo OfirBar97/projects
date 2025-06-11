@@ -1,3 +1,19 @@
+% ------------------------------------------------------------------------------
+% Fingerprint Recognition and Feature Extraction Project
+% Copyright (c) 2025 Ofir Bar (ofirbar97@gmail.com)
+%
+% This code is licensed for personal and academic use only.
+% Unauthorized reproduction or distribution of this code, or any portion of it,
+% may result in severe civil and criminal penalties, and will be prosecuted
+% to the maximum extent possible under law.
+%
+% Permission is granted to use, modify, and distribute this code for
+% non-commercial and educational purposes provided that this notice
+% is retained in all copies or substantial portions of the code.
+%
+% For commercial use, please contact: ofirbar97@gmail.com
+% ------------------------------------------------------------------------------
+
 %% Load the image
 clc;
 clear;
